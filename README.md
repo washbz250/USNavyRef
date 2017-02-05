@@ -1,9 +1,9 @@
-Navy App Plan
+# Navy App Plan
 
 Navy and Military Basics:							Etc:
-X	* 11 G.O.s								O	* prt
-X	* ranks									O	* advancement
-X	* creed									O	* pfm
+X	* 11 G.O.s								          O	* prt
+X	* ranks									            O	* advancement
+X	* creed									            O	* pfm
 X	* service song
 X	* rtc maxim
 O	* core values
