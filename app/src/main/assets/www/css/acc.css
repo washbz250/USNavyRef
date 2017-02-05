@@ -1,0 +1,108 @@
+{
+	font-family: Arial, sans;
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  border: 2px solid white;*/
+}
+/*h1, h2 {
+	margin: 1em 0 0 0;
+	text-align: center;
+}
+h2 {
+	margin: 0 0 1em 0;
+}
+#container {
+    margin: 0 auto;
+    width: 50%;
+}*/
+ul > section > li > div > label{
+    display: block;
+    position: relative;
+    color: #fdfdfd;
+    text-shadow: 0px 1px 0px rgba(0,0,0, .35);
+    background: #6c6e74;
+    background: -linear-gradient(top, #6c6e74 0%, #4b4d51);
+    background: #6c6e74;
+    background: -moz-linear-gradient(top,  #6c6e74 0%, #4b4d51 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6c6e74), color-stop(100%,#4b4d51));
+    background: -webkit-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+    background: -o-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+    background: -ms-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+    background: linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);    
+}
+
+ul > section > li > div > a > label {
+    display: block;
+    position: relative;
+    color: #fdfdfd;
+    text-shadow: 0px 1px 0px rgba(0,0,0, .35);
+    background: #6c6e74;
+    background: -linear-gradient(top, #6c6e74 0%, #4b4d51);
+    background: #6c6e74;
+    background: -moz-linear-gradient(top,  #6c6e74 0%, #4b4d51 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6c6e74), color-stop(100%,#4b4d51));
+    background: -webkit-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+    background: -o-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+    background: -ms-linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+    background: linear-gradient(top,  #6c6e74 0%,#4b4d51 100%);
+}
+
+.main-list {
+    list-style: none; 
+    padding-left: 0; 
+    text-align: center;
+}
+
+#accordion input {
+	display: none;
+}
+
+#accordion label {
+	/*background: #696969;*/
+	border-radius: .25em;
+	cursor: pointer;
+	display: block;
+	margin-bottom: .125em;
+	padding: .25em 1em;
+	/*z-index: 20;*/
+}
+
+#accordion label:hover {
+	/*background: #ccc;*/
+}
+
+#accordion input:checked + label {
+	/*background: #ccc;*/
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	/*color: white;*/
+	margin-bottom: 0;
+}
+#accordion article {
+	height:0px;
+	overflow:hidden;
+	z-index:10;
+}
+#accordion article p {
+	padding: 1em;
+}
+#accordion input:checked article {
+}
+#accordion input:checked ~ article {
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	height: auto;
+	margin-bottom: .125em;
+  border: 1px dashed #696969;
+}
+
+#accordion li div article table tr td img {
+    height: 50%;
+    weight: 50%;    
+}
+
+#ships { 
+    text-align: left;
+}

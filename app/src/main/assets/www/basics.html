@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Basics</title>
+	<!--Android Holo CSS Theme -->
+	<link rel="stylesheet" type="text/css" href="css/holo-base-elements.css" />
+	<link rel="stylesheet" type="text/css" href="css/holo-kk-dark-elements.css" />
+	<link rel="stylesheet" type="text/css" href="css/holo-base-widgets.css" />
+	<link rel="stylesheet" type="text/css" href="css/holo-kk-dark-widgets.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/acc.css" />
+
+	<!--Responsive Navigation-->
+	<link rel="stylesheet" href="js/responsive-nav.css">
+	<script src="js/responsive-nav.js"></script>
+
+	<link rel="shortcut icon" sizes="128x128" href="icon_128.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="icon_128.png" />
+
+	<!--Holo JS Script-->
+	<script type="text/javascript" src="css/holo-touch.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<header class="holo-actionBar">
+		<button class="holo-title" onclick="window.open('index.html', '_self');">
+			<!--<img src="icon_48.png" style="size:1%" />-->
+			Back to Main
+		</button>
+		<nav class="nav-collapse">
+			<ul style="display: absolute;">
+				<a href="basics.html">
+					<button>
+						<li>Basics</li>
+					</button>
+				</a>
+				<a href="tradition.html">
+					<button>
+						<li>Tradition</li>
+					</button>
+				</a>
+				<a href="war.html">
+					<button>
+						<li>War</li>
+					</button>
+				</a>
+				<a href="ship.html">
+				    <button>
+				        <li>Ship Info</li>
+				    </button>
+				</a>
+				<a href="dc.html">
+				    <button>
+				        <li>Damage Control</li>
+				    </button>
+				</a>
+				<a href="etc.html">
+				    <button>
+				        <li>Etc</li>
+				    </button>
+				</a>
+				<a href="about.html">
+					<button>
+						<li>About</li>
+					</button>
+				</a>
+			</ul>
+		</nav>
+	</header>
+	<h1>Military and Navy Basics</h1>
+		<ul class="main-list">
+		<section id="accordion">
+			<li>
+			<div>
+				<input type="checkbox" id="check-1"  />
+				<label for="check-1">24 Hour Time</label>
+				<article>
+						Use this chart to determine 24 hour time. For hours after noon, add 12 to them to get the military time.
+                    <table style="width: 100%; text-align: center; border: 1px solid white">
+                        <tr><th>Military = Civilian</th><th>Military = Civilian</th></tr>
+                        <tr><td>0001 = 12:01 AM</td><td>1300 = 1:00 PM</td></tr>
+                        <tr><td>0100 = 1:00 AM</td><td>1400 = 2:00 PM</td></tr>
+                        <tr><td>0200 = 2:00 AM</td><td>1500 = 3:00 PM</td></tr>
+                        <tr><td>0300 = 3:00 AM</td><td>1600 = 4:00 PM</td></tr>
+                        <tr><td>0400 = 4:00 AM</td><td>1700 = 5:00 PM</td></tr>
+                        <tr><td>0500 = 5:00 AM</td><td>1800 = 6:00 PM</td></tr>
+                        <tr><td>0600 = 6:00 AM</td><td>1900 = 7:00 PM</td></tr>
+                        <tr><td>0700 = 7:00 AM</td><td>2000 = 8:00 PM</td></tr>
+                        <tr><td>0800 = 8:00 AM</td><td>2100 = 9:00 PM</td></tr>
+                        <tr><td>0900 = 9:00 AM</td><td>2200 = 10:00 PM</td></tr>
+                        <tr><td>1000 = 10:00 AM</td><td>2300 = 11:00 PM</td></tr>
+                        <tr><td>1100 = 11:00 AM</td><td>2400 = 12 Midnight</td></tr>
+                        <tr><td>1200 = Noon</td></tr>
+                    </table>
+				</article>
+				</div>
+			</li>
+
+            <li>
+                <div>
+				    <input type="checkbox" id="check-2"  />
+					<label for="check-2">Ranks (Officer)</label>
+					<article>
+                        <h3>Officer:</h3>
+                        <table style="width: 100%">
+                            <tr><th>Rank</th><th>Name</th><th>Sleeve</th><th>Shoulder</th>
+                            <th>Collar</th></tr>
+                            
+                            <tr><td>0-1</td><td>Ensign</td>
+                                <td><img id="sleeve" src="img/oranks/ens-sl.jpg"></td>
+                                <td><img src="img/oranks/ens-sb.jpg"></td>
+                                <td><img src="img/oranks/ensclr.jpg"></td></tr>
+                            
+                            <tr><td>0-2</td><td>Lieutenant (J.G.)</td>
+                                <td><img id="sleeve" src="img/oranks/ltjg-sl.jpg"></td>
+                                <td><img src="img/oranks/ltjg-sb.jpg"></td>
+                                <td><img src="img/oranks/ltjgclr.jpg"></td></tr>
+                            
+                            <tr><td>0-3</td><td>Lieutenant</td>
+                                <td><img id="sleeve" src="img/oranks/lt-sl.jpg"></td>
+                                <td><img src="img/oranks/lt-sb.jpg"></td>
+                                <td><img src="img/oranks/lt-col.jpg"></td></tr>
+                            
+                            <tr><td>0-4</td><td>Lieutenant Commander</td>
+                                <td><img id="sleeve" src="img/oranks/lcdr-sl.jpg"></td>
+                                <td><img src="img/oranks/lcdr-sb.jpg"></td>
+                                <td><img src="img/oranks/lcdrclr.jpg"></td></tr>
+                            
+                            <tr><td>0-5</td><td>Commander</td>
+                                <td><img id="sleeve" src="img/oranks/cdr-sl.jpg"></td>
+                                <td><img src="img/oranks/cdr-sb.jpg"></td>
+                                <td><img src="img/oranks/cdr-clr.jpg"></td></tr>
+                            
+                            <tr><td>0-6</td><td>Captain</td>
+                                <td><img id="sleeve" src="img/oranks/capt-sl.jpg"></td>
+                                <td><img src="img/oranks/capt-sb.jpg"></td>
+                                <td><img src="img/oranks/captclr.jpg"></td></tr>
+                            
+                            <tr><td>0-7</td><td>Rear Admiral (Lower Half)</td>
+                                <td><img id="sleeve" src="img/oranks/radml-sl.jpg"></td>
+                                <td><img src="img/oranks/radml-sb.jpg"></td>
+                                <td><img src="img/oranks/radmlclr.jpg"></td></tr>
+                            
+                            <tr><td>0-8</td><td>Rear Admiral (Upper Half)</td>
+                                <td><img id="sleeve" src="img/oranks/radm-sl.jpg"></td>
+                                <td><img src="img/oranks/radm-sb.jpg"></td>
+                                <td><img src="img/oranks/radm-clr.jpg"></td></tr>
+                            
+                            <tr><td>0-9</td><td>Vice Admiral</td>
+                                <td><img id="sleeve" src="img/oranks/vadm-sl.jpg"></td>
+                                <td><img src="img/oranks/vadm-sb.jpg"></td>
+                                <td><img src="img/oranks/vadm-clr.jpg"></td></tr>
+                            
+                            <tr><td>0-10</td><td>Admiral</td>
+                                <td><img id="sleeve" src="img/oranks/adm-sl.jpg"></td>
+                                <td><img src="img/oranks/adm-sb.jpg"></td>
+                                <td><img src="img/oranks/adm-clr.jpg"></td></tr>
+                            
+                            <tr><td>0-11</td><td>Fleet Admiral*</td>
+                                <td><img id="sleeve" src="img/oranks/fadm-sl.jpg"></td>
+                                <td><img src="img/oranks/fadm-sb.jpg"></td>
+                                <td><img src="img/oranks/fadm-clr.jpg"></td></tr>  
+                        </table>
+                        <i style="text-align: left;">*None since WWII</i>
+					</article>
+				</div>
+            </li>
+            
+            
+            <li>
+                <div>
+				    <input type="checkbox" id="check-7"  />
+					<label for="check-7">Ranks (Warrant)</label>
+					<article>
+                        <h3>Warrant Officer:</h3>
+                        <table style="width: 100%">
+                            <tr><th>Rank</th><th>Name</th><th>Sleeve</th><th>Shoulder</th>
+                            <th>Collar</th></tr>
+                            
+                            <tr><td>W-1</td><td>Warrant Officer*</td>
+                            <td><img src="img/wranks/wo1-sl.jpg"></td>
+                                <td><img src="img/wranks/wo1-sb.jpg"></td>
+                                <td><img src="img/wranks/w1-clr.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>W-2</td><td>Chief Warrant Officer</td>
+                                <td><img src="img/wranks/wo2-sl.jpg"></td>
+                                <td><img src="img/wranks/wo2-sb.jpg"></td>
+                                <td><img src="img/wranks/w2-clr.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>W-3</td><td>Chief Warrant Officer</td>
+                                <td><img src="img/wranks/wo3-sl.jpg"></td>
+                                <td><img src="img/wranks/wo3-sb.jpg"></td>
+                                <td><img src="img/wranks/w3-clr.jpg"></td> 
+                            </tr>
+                            
+                            <tr><td>W-4</td><td>Chief Warrant Officer</td>
+                                <td><img src="img/wranks/wo4-sl.jpg"></td>
+                                <td><img src="img/wranks/wo4-sb.jpg"></td>
+                                <td><img src="img/wranks/w4-clr.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>W-5</td><td>Chief Warrant Officer</td>
+                                <td><img src="img/wranks/wo5-sl.jpg"></td>
+                                <td><img src="img/wranks/wo5-sb.jpg"></td>
+                                <td><img src="img/wranks/w5-clr.jpg"></td>
+                            </tr>
+                        </table>
+                        <i>*No longer in use</i>
+					</article>
+				</div>
+            </li>
+            
+            
+            
+			<li>
+                <div>
+				    <input type="checkbox" id="check-6"  />
+					<label for="check-6">Ranks (Enlisted)</label>
+					<article>
+                        <h3>Officer:</h3>
+                        <table style="width: 100%">
+                            <tr><th>Rate</th><th>Name</th><th>Upper Sleeve</th><th>Collar and Cap</th></tr>
+                            
+                            <tr><td>E-1</td><td>Seaman Recruit</td>
+                                <td>NONE</td><td>NONE</td>
+                            </tr>
+                            
+                            <tr><td>E-2</td><td>Seaman Apprentice</td>
+                                <td><img src="img/eranks/sa-patch.jpg"></td>
+                                <td>NONE</td>
+                            </tr>
+                            
+                            <tr><td>E-3</td><td>Seaman</td>
+                                <td><img src="img/eranks/sn-patch.jpg"></td>
+                                <td>NONE</td>
+                            </tr>
+                            
+                            <tr><td>E-4</td><td>Petty Officer 3rd Class</td>
+                                <td><img src="img/eranks/bm3rate.jpg"></td>
+                                <td><img src="img/eranks/po3crow.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>E-5</td><td>Petty Officer 2nd Class</td>
+                                <td><img src="img/eranks/bm2rate.jpg"></td>
+                                <td><img src="img/eranks/po2crow.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>E-6</td><td>Petty Officer 1st Class</td>
+                                <td><img src="img/eranks/bm1rate.jpg"></td>
+                                <td><img src="img/eranks/po1crow.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>E-7</td><td>Chief Petty Officer</td>
+                                <td><img src="img/eranks/qmc-rate.jpg"></td>
+                                <td><img src="img/eranks/cpo-pin.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>E-8</td><td>Senior Chief Petty Officer</td>
+                                <td><img src="img/eranks/qmcsrate.jpg"></td>
+                                <td><img src="img/eranks/scpo-pin.jpg"></td>
+                            </tr>
+                            
+                            <tr><td>E-9</td><td>Master Chief Petty Officer</td>
+                                <td><img src="img/eranks/qmcmrate.jpg"></td>
+                                <td><img src="img/eranks/mcpo-pin.jpg"></td>
+                            </tr>
+     
+                        </table>
+					</article>
+				</div>
+            </li>
+            
+            
+			<li>
+			     <div>
+                     <a href="creeds.html" style="color: white; text-decoration: none;">
+				    <input type="check" id="check-3"  />
+                     <label for="check-3">Creeds and General Orders</label>
+                     </a>
+			     </div>
+               
+            </li>
+            
+			
+			<li>
+			  <div>
+				
+            <li>
+			     <div>
+					<input type="checkbox" id="check-5"  />
+					<label for="check-5">Phonetic Alphabet</label>
+					<article>
+                        <h3>The Phonetic Alphabet</h3>
+                        <table style="width: 100%; text-align: center">
+                            <tr><td>A = Alpha</td><td>G = Golf</td>
+                                <td>M = Mike</td><td>S = Sierra</td>
+                                <td>Y = Yankee</td></tr>
+                            
+                            <tr><td>B = Bravo</td><td>H = Hotel</td>
+                                <td>N = November</td><td>T = Tango</td>
+                                <td>Z = Zulu</td></tr>
+                            
+                            <tr><td>C = Charlie</td><td>I = India</td>
+                                <td>O = Oscar</td><td>U = Uniform</td></tr>
+                            
+                            <tr><td>D = Delta</td><td>J = Juliet</td>
+                                <td>P = Papa</td><td>V = Victor</td></tr>
+                            
+                            <tr><td>E = Echo</td><td>K = Kilo</td>
+                                <td>Q = Quebec</td><td>W = Whiskey</td></tr>
+                            
+                            <tr><td>F = Foxtrot</td><td>L = Lima</td>
+                                <td>R = Romeo</td><td>X = X-ray</td></tr>
+                        </table>
+					</article>
+			     </div>
+            </li>
+		  </div>
+		</section>
+	</ul>
+	<!--Responsive Navigation Script-->
+	<script>
+		var navigation = responsiveNav(".nav-collapse");
+	</script>
+
+</body>
+
+</html>
