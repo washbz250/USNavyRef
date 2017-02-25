@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Basics</title>
+	<!--Android Holo CSS Theme -->
+	<link rel="stylesheet" type="text/css" href="css/holo-base-elements.css" />
+	<link rel="stylesheet" type="text/css" href="css/holo-kk-dark-elements.css" />
+	<link rel="stylesheet" type="text/css" href="css/holo-base-widgets.css" />
+	<link rel="stylesheet" type="text/css" href="css/holo-kk-dark-widgets.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/acc.css" />
+
+	<!--Responsive Navigation-->
+	<link rel="stylesheet" href="js/responsive-nav.css">
+	<script src="js/responsive-nav.js"></script>
+
+	<link rel="shortcut icon" sizes="128x128" href="icon_128.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="icon_128.png" />
+
+	<!--Holo JS Script-->
+	<script type="text/javascript" src="css/holo-touch.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<header class="holo-actionBar">
+		<button class="holo-title" onclick="window.open('index.html', '_self');">
+			<!--<img src="icon_48.png" style="size:1%" />-->
+			Back to Main
+		</button>
+		<nav class="nav-collapse">
+			<ul style="display: absolute;">
+				<a href="basics.html">
+					<button>
+						<li>Basics</li>
+					</button>
+				</a>
+				<a href="tradition.html">
+					<button>
+						<li>Tradition</li>
+					</button>
+				</a>
+				<a href="war.html">
+					<button>
+						<li>War</li>
+					</button>
+				</a>
+				<a href="ship.html">
+				    <button>
+				        <li>Ship Info</li>
+				    </button>
+				</a>
+				<a href="dc.html">
+				    <button>
+				        <li>Damage Control</li>
+				    </button>
+				</a>
+				<a href="etc.html">
+				    <button>
+				        <li>Etc</li>
+				    </button>
+				</a>
+				<a href="about.html">
+					<button>
+						<li>About</li>
+					</button>
+				</a>
+			</ul>
+		</nav>
+	</header>
+	<h1>Damage Control</h1>
+		<ul class="main-list">
+		<section id="accordion">
+			<li>
+			<div>
+				<input type="checkbox" id="check-1"  />
+				<label for="check-1">24 Hour Time</label>
+				<article>
+
+				</article>
+				</div>
+			</li>
+
+		  </div>
+		</section>
+	</ul>
+	<!--Responsive Navigation Script-->
+	<script>
+		var navigation = responsiveNav(".nav-collapse");
+	</script>
+
+</body>
+
+</html>
