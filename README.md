@@ -1,11 +1,11 @@
 # Navy App Plan
 
-Navy and Military Basics:							Etc:
-X	* 11 G.O.s								          O	* prt
-X	* ranks									            O	* advancement
-X	* creed									            O	* pfm
-X	* service song
-X	* rtc maxim
+Navy and Military Basics:							
+- X 11 G.O.s								          
+- X ranks									            
+- X creed									            
+- X service song
+- X rtc maxim
 O	* core values
 X	* 24 hr time
 X	* phonetic alpha
@@ -33,3 +33,8 @@ D.C./First Aid
 O	* d.c.
 O	* first aid
 O	* fire science
+
+Etc: 
+- O prt
+- O advancement
+- O pfm
