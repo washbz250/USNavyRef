@@ -1,40 +1,44 @@
 # Navy App Plan
 
-Navy and Military Basics:							
-- X 11 G.O.s								          
-- X ranks									            
-- X creed									            
-- X service song
-- X rtc maxim
-O	* core values
-X	* 24 hr time
-X	* phonetic alpha
+## Navy and Military Basics
+|Task               |Complete   |
+|-------------------|-----------|
+|11 G.O.s           |Yes        |
+|Ranks              |Yes        |
+|Creed              |Yes        |
+|Song               |Yes        |
+|RTC Maxim          |Yes        |
+|Core Values        |No         |
+|24 Hour Time       |Yes        |
+|Phonetic Alphabet  |Yes        |
 
-Naval Tradition:
-X	* History of the Navy
-O	* Aircraft/Ships
-O	* Terminology
-O	* drill/etiquette
+## Naval Tradition:
+|Task               |Complete   |
+|-------------------|-----------|
+|History of the Navy|Yes        |
+|Aircraft/Ships     |No         |
+|Terminology        |No         |
+|Drill/Etiquette    |No         |
 
-War and Deadly Force: 
-O	* Weapons conditions characteristics components
-O	* use of deadly force
-O	* law of armed conflict
-O	* Force protection
-O	* code of conduct in war
 
-Ship info and seamanship:
-O	* deck equip
-O	* ship structure
-O	* signal flags/pennants
-O	* compartment id
-
-D.C./First Aid
-O	* d.c.
-O	* first aid
-O	* fire science
-
-Etc: 
+## Etc: 
 - O prt
 - O advancement
 - O pfm
+
+# TBD/OPTIONAL FOR LATER
+## (OPTIONAL)  War and Deadly Force: 
+* Weapons conditions characteristics components
+* use of deadly force
+* law of armed conflict
+* Force protection
+* code of conduct in war
+## (OPTIONAL) Ship info and seamanship:
+* deck equip
+* ship structure
+* signal flags/pennants
+* compartment id
+## (OPTIONAL) D.C./First Aid
+* d.c.
+* first aid
+* fire science
